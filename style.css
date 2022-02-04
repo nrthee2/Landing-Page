@@ -128,4 +128,37 @@ body{
 }
 
 /* 4. section */
+
+.action {
+    padding: 60px 40px;
+}
+
+.action-container {
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.action-left {
+    color: #F9FAF8;
+}
+
+.action-container, .action-button {
+    background-color: #3882F6;
+}
+
+.action-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 24px;
+}
+
 /* footer */
