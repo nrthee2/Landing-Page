@@ -15,6 +15,12 @@ body{
     background-color: #1F2937;
 }
 
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+    
+}
+
 .header {
     display: flex;
     justify-content: space-between;
