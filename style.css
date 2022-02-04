@@ -38,7 +38,7 @@ body{
 
 .hero-main {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -52,7 +52,8 @@ body{
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    padding: 5px 24px;
+    border: 0;
+    padding: 8px 24px;
 }
 
 .hero {
@@ -75,6 +76,37 @@ body{
 }
 
 /* 2. section */
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.img {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.information-boxes {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 /* 3. section */
 /* 4. section */
 /* footer */
